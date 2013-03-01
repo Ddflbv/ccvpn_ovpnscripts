@@ -13,7 +13,7 @@ data = {
 	'username' : os.environ["common_name"],
 }
 
-r = requests.post(api_url, headers=headers, params=data)
+r = requests.post(api_url, headers=headers, data=data)
 
 exit(0)
 
