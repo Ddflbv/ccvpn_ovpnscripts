@@ -1,4 +1,7 @@
 
-api_baseurl = "http://vpn.ccrypto.com/api/server"
-api_token = ""
+# API base URL
+api_baseurl = http://vpn.ccrypto.org/api/server
+
+# API token
+api_token = 
 
