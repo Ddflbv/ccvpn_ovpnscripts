@@ -6,7 +6,7 @@ from settings import api_baseurl, api_token
 api_url = api_baseurl+"/auth"
 
 if len(sys.argv) < 2:
-    print "not enought args"
+    print("not enought args")
     exit(1)
 
 creds = open(sys.argv[1], 'r')
