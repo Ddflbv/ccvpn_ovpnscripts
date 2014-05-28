@@ -25,7 +25,7 @@ if not version:
     exit(1)
 
 try:
-    creds = open(path, 'r')
+    creds = open(path, 'r', encoding='utf8')
     lines = [line.strip() for line in creds]
     username = lines[0]
     password = lines[1]
