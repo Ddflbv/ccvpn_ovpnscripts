@@ -35,6 +35,8 @@ headers = {
 data = {
     'username': username,
     'remote_addr': trusted_ipv4,
+    'internal_ip4': os.environ.get('ifconfig_pool_remote_ip'),
+    'internal_ip6': '',
 }
 r = requests.post(api_url, headers=headers, data=data)
 
